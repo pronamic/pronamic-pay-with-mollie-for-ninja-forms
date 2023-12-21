@@ -1,0 +1,62 @@
+{
+	"name": "pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms",
+	"description": "Pronamic Pay plugin with Mollie for Ninja Forms integration.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"automattic/jetpack-autoloader": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"roots/wordpress-core-installer": true
+		},
+		"platform": {
+			"php": "8.0"
+		},
+		"platform-check": false,
+		"sort-packages": true,
+		"wp-slug": "pronamic-pay-with-mollie-for-ninja-forms"
+	},
+	"extra": {
+		"installer-paths": {
+			"packages/{$vendor}/{$name}": [
+				"vendor:pronamic",
+				"vendor:wp-pay",
+				"vendor:wp-pay-extensions",
+				"vendor:wp-pay-gateways",
+				"woocommerce/action-scheduler"
+			]
+		}
+	},
+	"require": {
+		"php": ">=8.0",
+		"automattic/jetpack-autoloader": "^2.11",
+		"composer/installers": "^2.2",
+		"woocommerce/action-scheduler": "^3.5",
+		"wp-pay-extensions/ninjaforms": "^3.2",
+		"wp-pay-gateways/mollie": "^4.7",
+		"wp-pay/core": "^4.9"
+	},
+	"require-dev": {
+		"pronamic/pronamic-cli": "^1.1",
+		"pronamic/wp-coding-standards": "^2.0",
+		"roots/wordpress-no-content": "^6.1",
+		"wp-cli/wp-cli": "dev-main",
+		"wp-cli/wp-cli-bundle": "dev-main"
+	},
+	"scripts": {
+		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
+		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
+		"translate": [
+			"@build",
+			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"
+		],
+		"version": "@build",
+		"release": [
+			"@build",
+			"vendor/bin/pronamic release-to-github",
+			"vendor/bin/pronamic release-to-pronamic",
+			"vendor/bin/pronamic release-to-wp-org"
+		]
+	}
+}
