@@ -750,16 +750,16 @@
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "v4.9.0",
+            "version": "v4.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "828f846db21104fb7974a7530768328ec24967fb"
+                "reference": "c4c1eed511b2f9d1de2c754e8ac65eef01e3c405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/828f846db21104fb7974a7530768328ec24967fb",
-                "reference": "828f846db21104fb7974a7530768328ec24967fb",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/c4c1eed511b2f9d1de2c754e8ac65eef01e3c405",
+                "reference": "c4c1eed511b2f9d1de2c754e8ac65eef01e3c405",
                 "shasum": ""
             },
             "require": {
@@ -779,7 +779,7 @@
                 "phpmd/phpmd": "^2.7",
                 "phpmetrics/phpmetrics": "^2.8",
                 "pronamic/pronamic-cli": "^1.1",
-                "pronamic/wp-coding-standards": "^2.0",
+                "pronamic/wp-coding-standards": "^2.1",
                 "roots/wordpress": "^6.0",
                 "wp-cli/wp-cli": "^2.3",
                 "wp-phpunit/wp-phpunit": "^6.1",
@@ -824,7 +824,7 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2024-02-07T19:45:59+00:00"
+            "time": "2024-02-13T08:50:18+00:00"
         },
         {
             "name": "wp-pay/core",
