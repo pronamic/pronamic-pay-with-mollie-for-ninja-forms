@@ -13,6 +13,6 @@
 	},
 	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms#readme",
 	"devDependencies": {
-		"@wordpress/env": "^9.0.0"
+		"@wordpress/env": "^9.3.0"
 	}
 }
