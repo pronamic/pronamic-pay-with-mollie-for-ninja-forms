@@ -1,18 +1,35 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms",
-	"description": "Pronamic Pay plugin with Mollie for Ninja Forms integration.",
 	"version": "1.4.1",
+	"description": "Pronamic Pay plugin with Mollie for Ninja Forms integration.",
+	"author": "Pronamic",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"form",
+		"forms",
+		"mollie",
+		"ninja-forms",
+		"ninjaforms",
+		"payment",
+		"payment-form",
+		"pronamic",
+		"pronamic-pay",
+		"wordpress",
+		"wordpress-plugin"
+	],
+	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms.git"
 	},
-	"author": "Pronamic",
-	"license": "GPL-2.0-or-later",
 	"bugs": {
 		"url": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms/issues"
 	},
-	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-ninja-forms#readme",
 	"devDependencies": {
-		"@wordpress/env": "^9.3.0"
+		"@wordpress/env": "^9.3.0",
+		"@wordpress/scripts": "^27.2.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
 	}
 }
