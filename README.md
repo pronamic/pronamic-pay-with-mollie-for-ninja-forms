@@ -17,7 +17,7 @@
 
 ## Video
 
-_to-do_
+[![Accept payments with Mollie and Gravity Forms for WordPress](https://img.youtube.com/vi/Rsycvh7Sgvk/maxresdefault.jpg)](https://youtu.be/Rsycvh7Sgvk)
 
 ## Introduction
 
