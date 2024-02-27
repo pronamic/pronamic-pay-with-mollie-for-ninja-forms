@@ -15,6 +15,8 @@ Connect Mollie to Ninja Forms with Pronamic Pay. This free plugin is all that yo
 Accept payments with Mollie and Ninja Forms. This free plugin is all that you need to connect your Ninja Forms forms to Mollie.
 The installation is as easy as creating a form. Just add your form fields, choose a payment amount and add a list of the available payment methods from Mollie. You can choose which payment methods you want to embed in your form.
 
+https://youtu.be/Rsycvh7Sgvk
+
 = External services =
 
 This plugin uses a number of external services to initiate payments. These are documented below with a link to the service's Terms of Use.
