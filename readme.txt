@@ -1,6 +1,6 @@
 === Pronamic Pay with Mollie for Ninja Forms ===
 Contributors: pronamic
-Tags: mollie, ninja-forms, ninja forms, form, payment, donation
+Tags: pronamic, mollie, ninja-forms, form, payment
 Requires at least: 5.9
 Tested up to: 6.4
 Requires PHP: 8.0
