@@ -1,10 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pronamic Pay\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-"
-"mollie-for-ninja-forms\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-mollie-for-ninja-forms\n"
 "POT-Creation-Date: 2023-03-29T09:43:40+00:00\n"
-"PO-Revision-Date: 2023-04-04 10:34+0200\n"
+"PO-Revision-Date: 2024-03-07 10:34+0100\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -12,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Plugin Name of the plugin
@@ -20,10 +19,8 @@ msgid "Pronamic Pay with Mollie for Ninja Forms"
 msgstr "Pronamic Pay met Mollie voor Ninja Forms"
 
 #. Plugin URI of the plugin
-msgid ""
-"https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-ninja-forms/"
-msgstr ""
-"https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-ninja-forms/"
+msgid "https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-ninja-forms/"
+msgstr "https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-ninja-forms/"
 
 #. Description of the plugin
 msgid "Pronamic Pay plugin with Mollie for Ninja Forms integration."
@@ -59,9 +56,7 @@ msgid "Search"
 msgstr "Zoeken"
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:96
-msgid ""
-"This action appears to be consistently failing. A new instance will not be "
-"scheduled."
+msgid "This action appears to be consistently failing. A new instance will not be scheduled."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
@@ -103,9 +98,7 @@ msgstr ""
 
 #. translators: %s: amount of time
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
-msgid ""
-"action marked as failed after %s seconds. Unknown error occurred. Check "
-"server, PHP and database error logs to diagnose cause."
+msgid "action marked as failed after %s seconds. Unknown error occurred. Check server, PHP and database error logs to diagnose cause."
 msgstr ""
 
 #. translators: 1: error message 2: filename 3: line
@@ -141,10 +134,7 @@ msgid "There was a failure scheduling the next instance of this action: %s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:329
-msgid ""
-"ActionScheduler_Action::$args too long. To ensure the args column can be "
-"indexed, action args should not be more than %d characters when encoded as "
-"JSON."
+msgid "ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:405
@@ -170,9 +160,7 @@ msgstr "Geannuleerd"
 
 #. translators: 1: action hook.
 #: packages/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php:37
-msgid ""
-"Scheduled action for %1$s will not be executed as no callbacks are "
-"registered."
+msgid "Scheduled action for %1$s will not be executed as no callbacks are registered."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:226
@@ -190,16 +178,8 @@ msgstr ""
 
 #. translators: 1) is the number of affected actions, 2) is a link to an admin screen.
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:195
-msgid ""
-"<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due action</a> "
-"found; something may be wrong. <a href=\"https://actionscheduler.org/faq/#my-"
-"site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read "
-"documentation &raquo;</a>"
-msgid_plural ""
-"<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due actions</"
-"a> found; something may be wrong. <a href=\"https://actionscheduler.org/faq/"
-"#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read "
-"documentation &raquo;</a>"
+msgid "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due action</a> found; something may be wrong. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read documentation &raquo;</a>"
+msgid_plural "<strong>Action Scheduler:</strong> %1$d <a href=\"%2$s\">past-due actions</a> found; something may be wrong. <a href=\"https://actionscheduler.org/faq/#my-site-has-past-due-actions-what-can-i-do\" target=\"_blank\">Read documentation &raquo;</a>"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -212,11 +192,7 @@ msgid "About Action Scheduler %s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:229
-msgid ""
-"Action Scheduler is a scalable, traceable job queue for background "
-"processing large sets of actions. Action Scheduler works by triggering an "
-"action hook to run at some time in the future. Scheduled actions can also be "
-"scheduled to run on a recurring schedule."
+msgid "Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:237
@@ -322,9 +298,7 @@ msgstr ""
 
 #. translators: 1: action ID 2: arguments
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
-msgid ""
-"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. "
-"$args = %2$s"
+msgid "Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
@@ -435,27 +409,19 @@ msgid "Non-repeating"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:364
-msgid ""
-"It appears one or more database tables were missing. Attempting to re-create "
-"the missing table(s)."
+msgid "It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
 msgstr ""
 
 #. translators: %s: amount of claims
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:380
-msgid ""
-"Maximum simultaneous queues already in progress (%s queue). No additional "
-"queues will begin processing until the current queues are complete."
-msgid_plural ""
-"Maximum simultaneous queues already in progress (%s queues). No additional "
-"queues will begin processing until the current queues are complete."
+msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
+msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: %s: process URL
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:397
-msgid ""
-"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
-"&raquo;</a>"
+msgid "A new queue has begun processing. <a href=\"%s\">View actions in-progress &raquo;</a>"
 msgstr ""
 
 #. translators: %d: seconds
@@ -544,10 +510,7 @@ msgstr ""
 
 #. translators: 1: next cleanup message 2: github issue URL
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
-msgid ""
-"Action Scheduler has migrated data to custom tables; however, orphaned log "
-"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
-"more &raquo;</a>"
+msgid "Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn more &raquo;</a>"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:110
@@ -567,16 +530,12 @@ msgid "Invalid value for select or count parameter. Cannot query actions."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:433
-msgid ""
-"JSON partial matching not supported in your environment. Please check your "
-"MySQL/MariaDB version."
+msgid "JSON partial matching not supported in your environment. Please check your MySQL/MariaDB version."
 msgstr ""
 
 #. translators: %s: provided value type
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:450
-msgid ""
-"The value type for the JSON partial matching is not supported. Must be "
-"either integer, boolean, double or string. %s type provided."
+msgid "The value type for the JSON partial matching is not supported. Must be either integer, boolean, double or string. %s type provided."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:471
@@ -643,8 +602,7 @@ msgstr ""
 
 #. translators: %s is the error message
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1055
-msgid ""
-"%s Support for strings longer than this will be removed in a future version."
+msgid "%s Support for strings longer than this will be removed in a future version."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
@@ -752,9 +710,7 @@ msgid "Destination logger must be configured before running a migration"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/migration/Controller.php:162
-msgid ""
-"Action Scheduler migration in progress. The list of scheduled actions may be "
-"incomplete."
+msgid "Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
 msgstr ""
 
 #. translators: %d: amount of actions
@@ -776,8 +732,7 @@ msgid "The %s class can only be run within WP CLI."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
-msgid ""
-"There are too many concurrent batches, but the run is forced to continue."
+msgid "There are too many concurrent batches, but the run is forced to continue."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
@@ -904,24 +859,13 @@ msgstr "betaalmethode"
 
 #. translators: 1: Pronamic Pay plugin name, 2: documentation URL anchor
 #: packages/wp-pay-extensions/ninja-forms/views/issuer-tag-generator.php:18
-msgid ""
-"Generate a tag for an issuer field. %1$s requires a field with the "
-"`pronamic_pay_amount` option, but payment method and issuer fields are "
-"optional in most cases. For step-by-step instructions on receiving payments "
-"with Ninja Forms, please see %2$s."
-msgstr ""
-"Een formulier-tag genereren voor een bankenlijst. %1$s vereist een veld met "
-"de optie `pronamic_pay_amount`, maar de betalingsmethode en bankenlijst "
-"velden zijn in de meeste gevallen optioneel. Zie %2$s voor instructies over "
-"het ontvangen van betalingen met Ninja Forms."
+msgid "Generate a tag for an issuer field. %1$s requires a field with the `pronamic_pay_amount` option, but payment method and issuer fields are optional in most cases. For step-by-step instructions on receiving payments with Ninja Forms, please see %2$s."
+msgstr "Een formulier-tag genereren voor een bankenlijst. %1$s vereist een veld met de optie `pronamic_pay_amount`, maar de betalingsmethode en bankenlijst velden zijn in de meeste gevallen optioneel. Zie %2$s voor instructies over het ontvangen van betalingen met Ninja Forms."
 
 #: packages/wp-pay-extensions/ninja-forms/views/issuer-tag-generator.php:20
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:23
-msgid ""
-"https://www.pronamic.eu/support/how-to-connect-ninja-forms-to-pronamic-"
-"pay/"
-msgstr ""
-"https://www.pronamic.nl/support/pronamic-pay-koppelen-aan-ninja-forms/"
+msgid "https://www.pronamic.eu/support/how-to-connect-ninja-forms-to-pronamic-pay/"
+msgstr "https://www.pronamic.nl/support/pronamic-pay-koppelen-aan-ninja-forms/"
 
 #: packages/wp-pay-extensions/ninja-forms/views/issuer-tag-generator.php:20
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:23
@@ -984,26 +928,13 @@ msgstr "Tag invoeren"
 #. translators: %s: mail-tag placeholder HTML
 #: packages/wp-pay-extensions/ninja-forms/views/issuer-tag-generator.php:106
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:163
-msgid ""
-"To use the value input through this field in a mail field, you need to "
-"insert the corresponding mail-tag (%s) into the field on the Mail tab."
-msgstr ""
-"Om de ingevoerde waarde van dit veld te kunnen gebruiken in een e-mailveld, "
-"moet de corresponderende e-mail-tag (%s) in het veld op het mail-tabblad "
-"ingevoegd worden."
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr "Om de ingevoerde waarde van dit veld te kunnen gebruiken in een e-mailveld, moet de corresponderende e-mail-tag (%s) in het veld op het mail-tabblad ingevoegd worden."
 
 #. translators: 1: Pronamic Pay plugin name, 2: documentation URL anchor
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:21
-msgid ""
-"Generate a tag for a payment method field. %1$s requires a field with the "
-"`pronamic_pay_amount` option, but payment method and issuer fields are "
-"optional in most cases. For step-by-step instructions on receiving payments "
-"with Ninja Forms, please see %2$s."
-msgstr ""
-"Een formulier-tag genereren voor een betaalmethode-veld. %1$s vereist een "
-"veld met de optie `pronamic_pay_amount`, maar de betalingsmethode en "
-"bankenlijst velden zijn in de meeste gevallen optioneel. Zie %2$s voor "
-"instructies over het ontvangen van betalingen met Ninja Forms."
+msgid "Generate a tag for a payment method field. %1$s requires a field with the `pronamic_pay_amount` option, but payment method and issuer fields are optional in most cases. For step-by-step instructions on receiving payments with Ninja Forms, please see %2$s."
+msgstr "Een formulier-tag genereren voor een betaalmethode-veld. %1$s vereist een veld met de optie `pronamic_pay_amount`, maar de betalingsmethode en bankenlijst velden zijn in de meeste gevallen optioneel. Zie %2$s voor instructies over het ontvangen van betalingen met Ninja Forms."
 
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:88
 #: packages/wp-pay-extensions/ninja-forms/views/payment-method-tag-generator.php:93
@@ -1070,12 +1001,8 @@ msgstr "Rekeningnummer (IBAN)"
 
 #. translators: 1: payment transaction ID, 2: Mollie payment ID
 #: packages/wp-pay-gateways/mollie/src/Gateway.php:1016
-msgid ""
-"Payment transaction ID updated from `%1$s` to successful order payment "
-"`%2$s`."
-msgstr ""
-"Betaling transactie ID bijgewerkt van `%1$s` naar succesvolle betaling "
-"`%2$s` van bestelling."
+msgid "Payment transaction ID updated from `%1$s` to successful order payment `%2$s`."
+msgstr "Betaling transactie ID bijgewerkt van `%1$s` naar succesvolle betaling `%2$s` van bestelling."
 
 #. translators: 1: Mollie shipment ID, 2: Mollie order ID
 #: packages/wp-pay-gateways/mollie/src/Gateway.php:1032
@@ -1085,8 +1012,7 @@ msgstr "Zending `%1$s` aangemaakt voor Mollie bestelling `%2$s`."
 #. translators: 1: Mollie chargeback ID, 2: Mollie payment ID
 #: packages/wp-pay-gateways/mollie/src/Gateway.php:1400
 msgid "Subscription put on hold due to chargeback `%1$s` of payment `%2$s`."
-msgstr ""
-"Abonnement in de wacht gezet vanwege terugboeking `%1$s` van betaling `%2$s`."
+msgstr "Abonnement in de wacht gezet vanwege terugboeking `%1$s` van betaling `%2$s`."
 
 #. translators: 1: old mandate ID, 2: new mandate ID
 #: packages/wp-pay-gateways/mollie/src/Gateway.php:1502
@@ -1130,12 +1056,8 @@ msgid "Webhook URL"
 msgstr "Webhook URL"
 
 #: packages/wp-pay-gateways/mollie/src/Integration.php:204
-msgid ""
-"The Webhook URL as sent with each transaction to receive automatic payment "
-"status updates on."
-msgstr ""
-"De Webhook URL die wordt meegestuurd met elke transactie om de automatische "
-"transactie status update op te ontvangen."
+msgid "The Webhook URL as sent with each transaction to receive automatic payment status updates on."
+msgstr "De Webhook URL die wordt meegestuurd met elke transactie om de automatische transactie status update op te ontvangen."
 
 #: packages/wp-pay-gateways/mollie/src/WebhookController.php:52
 #: packages/wp-pay-gateways/mollie/src/WebhookController.php:74
@@ -1374,21 +1296,8 @@ msgid "No"
 msgstr "Nee"
 
 #: packages/wp-pay-gateways/mollie/views/user-profile.php:110
-msgid ""
-"Mollie offers the possibility to register payers as a customer within the "
-"Mollie payment platform. This functionality remembers payment preferences to "
-"make future payments easier. The Mollie customers can be linked to WordPress "
-"users. This is a list of Mollie customers associated with this WordPress "
-"user. For subscriptions, a Mollie customer mandate can be used for recurring "
-"payments."
-msgstr ""
-"Mollie biedt de mogelijkheid om betalers als klant (‘customer’) te "
-"registreren binnen het Mollie betaalplatform. Deze functionaliteit onthoudt "
-"de betaalvoorkeuren van een klant om een volgende betaling sneller te laten "
-"verlopen. De Mollie klanten kunnen gekoppeld zijn aan WordPress gebruikers. "
-"Hieronder is een lijst van Mollie klanten te zien die gekoppeld zijn aan "
-"deze WordPress gebruiker. Voor abonnementen kunnen de machtigingen bij een "
-"Mollie klant gebruikt worden voor terugkerende betalingen."
+msgid "Mollie offers the possibility to register payers as a customer within the Mollie payment platform. This functionality remembers payment preferences to make future payments easier. The Mollie customers can be linked to WordPress users. This is a list of Mollie customers associated with this WordPress user. For subscriptions, a Mollie customer mandate can be used for recurring payments."
+msgstr "Mollie biedt de mogelijkheid om betalers als klant (‘customer’) te registreren binnen het Mollie betaalplatform. Deze functionaliteit onthoudt de betaalvoorkeuren van een klant om een volgende betaling sneller te laten verlopen. De Mollie klanten kunnen gekoppeld zijn aan WordPress gebruikers. Hieronder is een lijst van Mollie klanten te zien die gekoppeld zijn aan deze WordPress gebruiker. Voor abonnementen kunnen de machtigingen bij een Mollie klant gebruikt worden voor terugkerende betalingen."
 
 #: packages/wp-pay/core/src/Admin/AdminAboutPage.php:68
 msgid "About Pronamic Pay"
@@ -1537,12 +1446,8 @@ msgid "Pronamic Pay license key is valid"
 msgstr "Pronamic Pay licentiesleutel is geldig"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:221
-msgid ""
-"A valid license is required for technical support and continued plugin "
-"updates."
-msgstr ""
-"Een geldige licentiesleutel is vereist voor technische ondersteuning en "
-"verdere plugin updates."
+msgid "A valid license is required for technical support and continued plugin updates."
+msgstr "Een geldige licentiesleutel is vereist voor technische ondersteuning en verdere plugin updates."
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:224
 msgid "Security"
@@ -1583,11 +1488,8 @@ msgid "WordPress memory limit is sufficient (%s)"
 msgstr "WordPress geheugenlimiet is voldoende (%s)"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:314
-msgid ""
-"Pronamic Pay recommends setting the WordPress memory limit to at least 64 MB."
-msgstr ""
-"Pronamic Pay raadt aan om het WordPress geheugenlimiet in te stellen op "
-"minimaal 64 MB."
+msgid "Pronamic Pay recommends setting the WordPress memory limit to at least 64 MB."
+msgstr "Pronamic Pay raadt aan om het WordPress geheugenlimiet in te stellen op minimaal 64 MB."
 
 #. translators: %s: WordPress memory limit
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:329
@@ -1599,11 +1501,8 @@ msgid "Character encoding is set to UTF-8"
 msgstr "Tekencodering is ingesteld op UTF-8"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:347
-msgid ""
-"Pronamic Pay recommends to use the UTF-8 character encoding for payments."
-msgstr ""
-"Pronamic Pay raadt aan om de UTF-8 tekencodering te gebruiken voor "
-"betalingen."
+msgid "Pronamic Pay recommends to use the UTF-8 character encoding for payments."
+msgstr "Pronamic Pay raadt aan om de UTF-8 tekencodering te gebruiken voor betalingen."
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:360
 msgid "Character encoding is not set to UTF-8"
@@ -1614,12 +1513,8 @@ msgid "SHA1 hashing algorithm is available"
 msgstr "SHA1 hashing algoritme is beschikbaar"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:376
-msgid ""
-"Payment gateways often use the SHA1 hashing algorithm, therefore Pronamic "
-"Pay advises to enable this hashing algorithm."
-msgstr ""
-"Betalingsproviders gebruiken vaak het SHA1 hashing algoritme, daarom raadt "
-"Pronamic Pay aan om dit hashing algoritme in te schakelen."
+msgid "Payment gateways often use the SHA1 hashing algorithm, therefore Pronamic Pay advises to enable this hashing algorithm."
+msgstr "Betalingsproviders gebruiken vaak het SHA1 hashing algoritme, daarom raadt Pronamic Pay aan om dit hashing algoritme in te schakelen."
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:391
 msgid "SHA1 hashing algorithm is not available for Pronamic Pay"
@@ -1630,11 +1525,8 @@ msgid "Untested plugin versions:"
 msgstr "Niet-geteste plugin versies:"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:529
-msgid ""
-"Outdated unsupported plugin versions for which payments can not be processed:"
-msgstr ""
-"Verouderde niet-ondersteunde plugin versies waarvoor betalingen niet kunnen "
-"worden verwerkt:"
+msgid "Outdated unsupported plugin versions for which payments can not be processed:"
+msgstr "Verouderde niet-ondersteunde plugin versies waarvoor betalingen niet kunnen worden verwerkt:"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:538
 msgid "Supported plugin versions:"
@@ -1646,14 +1538,8 @@ msgid "%s extensions are compatible"
 msgstr "%s extensies zijn compatibel"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:550
-msgid ""
-"Pronamic Pay uses extensions to integrate with form, booking and other e-"
-"commerce plugins. All extensions support the currently activated plugin "
-"versions."
-msgstr ""
-"Pronamic Pay maakt gebruik van extensies om te integreren met formulier-, "
-"boeking- en andere e-commerce plugins. Alle extensies ondersteunen de "
-"momenteel geactiveerde plugin versies."
+msgid "Pronamic Pay uses extensions to integrate with form, booking and other e-commerce plugins. All extensions support the currently activated plugin versions."
+msgstr "Pronamic Pay maakt gebruik van extensies om te integreren met formulier-, boeking- en andere e-commerce plugins. Alle extensies ondersteunen de momenteel geactiveerde plugin versies."
 
 #. translators: %s: plugin name
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:555
@@ -1666,19 +1552,8 @@ msgid "%s extensions might be incompatible"
 msgstr "%s extensies zijn mogelijk niet compatibel"
 
 #: packages/wp-pay/core/src/Admin/AdminHealth.php:567
-msgid ""
-"Pronamic Pay uses extensions to integrate with form, booking and other e-"
-"commerce plugins. We have found that not all extensions are tested with or "
-"support the version of the currently activated plugins. Usually you can "
-"still accept payments, however if you experience payment issues it is "
-"advised to check the 'Plugins' page for available updates."
-msgstr ""
-"Pronamic Pay maakt gebruik van extensies om te integreren met formulier-, "
-"boeking- en andere e-commerce plugins. We zien dat niet alle extensies "
-"getest zijn met de plugin versies die op dit moment geactiveerd zijn of dat "
-"deze versies niet ondersteund zijn. Meestal kun je dan nog steeds betalingen "
-"ontvangen, maar als je probleem ervaart met de betalingen dan is het aan te "
-"raden om de ‘Plugins’ pagina te controleren voor beschikbare updates."
+msgid "Pronamic Pay uses extensions to integrate with form, booking and other e-commerce plugins. We have found that not all extensions are tested with or support the version of the currently activated plugins. Usually you can still accept payments, however if you experience payment issues it is advised to check the 'Plugins' page for available updates."
+msgstr "Pronamic Pay maakt gebruik van extensies om te integreren met formulier-, boeking- en andere e-commerce plugins. We zien dat niet alle extensies getest zijn met de plugin versies die op dit moment geactiveerd zijn of dat deze versies niet ondersteund zijn. Meestal kun je dan nog steeds betalingen ontvangen, maar als je probleem ervaart met de betalingen dan is het aan te raden om de ‘Plugins’ pagina te controleren voor beschikbare updates."
 
 #. translators: %s: order ID
 #: packages/wp-pay/core/src/Admin/AdminModule.php:497
@@ -1783,34 +1658,23 @@ msgstr[1] "%s betalingen bijgewerkt."
 
 #. translators: %s: number skipped payments
 #: packages/wp-pay/core/src/Admin/AdminPaymentBulkActions.php:190
-msgid ""
-"%s payment is not updated because it already has a final payment status."
-msgid_plural ""
-"%s payments are not updated because they already have a final payment status."
-msgstr[0] ""
-"%s betaling is niet bijgewerkt, omdat deze reeds een definitieve "
-"betalingsstatus heeft."
-msgstr[1] ""
-"%s betalingen zijn niet bijgewerkt, omdat deze reeds een definitieve "
-"betalingsstatus hebben."
+msgid "%s payment is not updated because it already has a final payment status."
+msgid_plural "%s payments are not updated because they already have a final payment status."
+msgstr[0] "%s betaling is niet bijgewerkt, omdat deze reeds een definitieve betalingsstatus heeft."
+msgstr[1] "%s betalingen zijn niet bijgewerkt, omdat deze reeds een definitieve betalingsstatus hebben."
 
 #. translators: %s: gateways lists
 #: packages/wp-pay/core/src/Admin/AdminPaymentBulkActions.php:223
 msgid "Requesting the current payment status is unsupported by %s."
-msgstr ""
-"Het opvragen van de huidige betalingsstatus wordt niet ondersteund door %s."
+msgstr "Het opvragen van de huidige betalingsstatus wordt niet ondersteund door %s."
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:155
 msgid "Payment status updated."
 msgstr "Betalingsstatus is bijgewerkt."
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:166
-msgid ""
-"Payment details or an invalid tracking ID prevent payment from being tracked "
-"by Google Analytics."
-msgstr ""
-"Betalingsgegevens of een ongeldige tracking-ID voorkomen dat de betaling kan "
-"worden bijgehouden door Google Analytics."
+msgid "Payment details or an invalid tracking ID prevent payment from being tracked by Google Analytics."
+msgstr "Betalingsgegevens of een ongeldige tracking-ID voorkomen dat de betaling kan worden bijgehouden door Google Analytics."
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:174
 msgid "Payment sent to Google Analytics."
@@ -1821,11 +1685,8 @@ msgid "Payment could not be sent to Google Analytics."
 msgstr "Betaling kon niet naar Google Analytics worden verzonden."
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:217
-msgid ""
-"This payment has been anonymized. Personal details are not available anymore."
-msgstr ""
-"Deze betaling is geanonimiseerd. Persoonlijke gegevens zijn niet meer "
-"beschikbaar."
+msgid "This payment has been anonymized. Personal details are not available anymore."
+msgstr "Deze betaling is geanonimiseerd. Persoonlijke gegevens zijn niet meer beschikbaar."
 
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:252
 #: packages/wp-pay/core/src/Admin/AdminPaymentPostType.php:253
@@ -2023,9 +1884,7 @@ msgstr "Google Analytics tracking-ID"
 
 #: packages/wp-pay/core/src/Admin/AdminSettings.php:81
 msgid "Set a Google Analytics tracking UA code to track ecommerce revenue."
-msgstr ""
-"Stel een Google Analytics tracking UA code in om ecommerce inkomsten bij te "
-"houden."
+msgstr "Stel een Google Analytics tracking UA code in om ecommerce inkomsten bij te houden."
 
 #: packages/wp-pay/core/src/Admin/AdminSettings.php:90
 #: packages/wp-pay/core/src/Admin/AdminSettings.php:95
@@ -2636,18 +2495,11 @@ msgstr "Kon gateway met ID `%s` niet vinden."
 
 #: packages/wp-pay/core/src/HomeUrlController.php:47
 msgid "Home URL setting to detect changes in the WordPress home URL."
-msgstr ""
-"Home URL instelling om wijzigingen in de WordPress home URL te detecteren."
+msgstr "Home URL instelling om wijzigingen in de WordPress home URL te detecteren."
 
 #: packages/wp-pay/core/src/HomeUrlController.php:93
-msgid ""
-"If you use subscriptions, you may want to update processing of recurring "
-"payments in the plugin debug settings to prevent duplicate payments being "
-"started in a development environment."
-msgstr ""
-"Als je abonnementen gebruikt, wil je misschien de verwerking van "
-"terugkerende betalingen bijwerken in de plugin debug instellingen om te "
-"voorkomen dat dubbele betalingen worden gestart in een ontwikkelomgeving."
+msgid "If you use subscriptions, you may want to update processing of recurring payments in the plugin debug settings to prevent duplicate payments being started in a development environment."
+msgstr "Als je abonnementen gebruikt, wil je misschien de verwerking van terugkerende betalingen bijwerken in de plugin debug instellingen om te voorkomen dat dubbele betalingen worden gestart in een ontwikkelomgeving."
 
 #: packages/wp-pay/core/src/LicenseManager.php:70
 msgid "Support License Key"
@@ -2655,27 +2507,13 @@ msgstr "Support licentiecode"
 
 #. translators: 1: Pronamic Pay settings page URL, 2: Pronamic.eu plugin page URL
 #: packages/wp-pay/core/src/LicenseManager.php:161
-msgid ""
-"<strong>Pronamic Pay</strong> — You have not entered a valid <a "
-"href=\"%1$s\">support license key</a>, please <a href=\"%2$s\" "
-"target=\"_blank\">get your key at pronamic.eu</a>."
-msgstr ""
-"<strong>Pronamic Pay</strong> — Je hebt geen geldige <a "
-"href=\"%1$s\">support licentiesleutel</a> ingevuld, bestel je "
-"licentiesleutel op <a href=\"%2$s\" target=\"_blank\">pronamic.eu</a>."
+msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>, please <a href=\"%2$s\" target=\"_blank\">get your key at pronamic.eu</a>."
+msgstr "<strong>Pronamic Pay</strong> — Je hebt geen geldige <a href=\"%1$s\">support licentiesleutel</a> ingevuld, bestel je licentiesleutel op <a href=\"%2$s\" target=\"_blank\">pronamic.eu</a>."
 
 #. translators: 1: Pronamic Pay settings page URL, 2: Pronamic.eu plugin page URL, 3: Pronamic.eu account page URL
 #: packages/wp-pay/core/src/LicenseManager.php:168
-msgid ""
-"<strong>Pronamic Pay</strong> — You have not entered a valid <a "
-"href=\"%1$s\">support license key</a>. Please <a href=\"%2$s\" "
-"target=\"_blank\">get your key at pronamic.eu</a> or login to <a "
-"href=\"%3$s\" target=\"_blank\">check your license status</a>."
-msgstr ""
-"<strong>Pronamic Pay</strong> — Je hebt geen geldige <a "
-"href=\"%1$s\">support licentiesleutel</a> ingevuld. Bestel je licentie op <a "
-"href=\"%2$s\" target=\"_blank\">pronamic.eu</a> of login om <a href=\"%3$s\" "
-"target=\"_blank\">de licentie te controleren</a>."
+msgid "<strong>Pronamic Pay</strong> — You have not entered a valid <a href=\"%1$s\">support license key</a>. Please <a href=\"%2$s\" target=\"_blank\">get your key at pronamic.eu</a> or login to <a href=\"%3$s\" target=\"_blank\">check your license status</a>."
+msgstr "<strong>Pronamic Pay</strong> — Je hebt geen geldige <a href=\"%1$s\">support licentiesleutel</a> ingevuld. Bestel je licentie op <a href=\"%2$s\" target=\"_blank\">pronamic.eu</a> of login om <a href=\"%3$s\" target=\"_blank\">de licentie te controleren</a>."
 
 #: packages/wp-pay/core/src/LicenseManager.php:366
 #: packages/wp-pay/core/views/tab-system_status.php:40
@@ -2713,12 +2551,8 @@ msgid "Payment Status Pages"
 msgstr "Betalingsstatus pagina's"
 
 #: packages/wp-pay/core/src/PagesController.php:86
-msgid ""
-"The page an user will get redirected to after payment, based on the payment "
-"status."
-msgstr ""
-"De pagina waarnaar een gebruiker op basis van de de betalingsstatus wordt "
-"doorgestuurd na betaling."
+msgid "The page an user will get redirected to after payment, based on the payment status."
+msgstr "De pagina waarnaar een gebruiker op basis van de de betalingsstatus wordt doorgestuurd na betaling."
 
 #: packages/wp-pay/core/src/PagesController.php:104
 msgid "Set default pages"
@@ -3118,8 +2952,7 @@ msgstr "Kon betaling met ID `%s` niet vinden."
 
 #: packages/wp-pay/core/src/Payments/PaymentsPrivacy.php:228
 msgid "Payment anonymized for personal data erasure request."
-msgstr ""
-"Betaling geanonimiseerd voor verzoek om persoonlijke data te verwijderen."
+msgstr "Betaling geanonimiseerd voor verzoek om persoonlijke data te verwijderen."
 
 #. translators: %s: Payment ID
 #: packages/wp-pay/core/src/Payments/PaymentsPrivacy.php:232
@@ -3137,11 +2970,8 @@ msgid "D j M Y \\a\\t H:i"
 msgstr "D j M Y \\o\\m H:i"
 
 #: packages/wp-pay/core/src/Plugin.php:814
-msgid ""
-"Something went wrong with the payment. Please try again or pay another way."
-msgstr ""
-"Er ging iets mis met de betaling. Probeer het opnieuw of betaal op een "
-"andere manier."
+msgid "Something went wrong with the payment. Please try again or pay another way."
+msgstr "Er ging iets mis met de betaling. Probeer het opnieuw of betaal op een andere manier."
 
 #: packages/wp-pay/core/src/Plugin.php:857
 msgid "— Select Configuration —"
@@ -3149,15 +2979,12 @@ msgstr "— Selecteer configuratie —"
 
 #. translators: %d: Gateway configuration ID
 #: packages/wp-pay/core/src/Plugin.php:1193
-msgid ""
-"Payment failed because gateway configuration with ID `%d` does not exist."
+msgid "Payment failed because gateway configuration with ID `%d` does not exist."
 msgstr "Betaling mislukt omdat gateway configuratie met ID `%d` niet bestaat."
 
 #: packages/wp-pay/core/src/Plugin.php:1312
 msgid "Unable to process refund as gateway could not be found."
-msgstr ""
-"Kan de terugbetaling niet verwerken omdat de gateway niet kan worden "
-"gevonden."
+msgstr "Kan de terugbetaling niet verwerken omdat de gateway niet kan worden gevonden."
 
 #. translators: %s: payment title
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionHelper.php:61
@@ -3339,8 +3166,7 @@ msgstr "abonnement betaalmethode wijziging"
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsPrivacy.php:196
 msgid "Subscription anonymized for personal data erasure request."
-msgstr ""
-"Abonnement geanonimiseerd voor verzoek om persoonlijke data te verwijderen."
+msgstr "Abonnement geanonimiseerd voor verzoek om persoonlijke data te verwijderen."
 
 #. translators: %s = subscription id
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsPrivacy.php:198
@@ -3348,12 +3174,8 @@ msgid "Subscription ID %s anonymized."
 msgstr "Abonnement ID %s geanonimiseerd."
 
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsPrivacy.php:217
-msgid ""
-"Subscription not anonymized for personal data erasure request because of "
-"active status."
-msgstr ""
-"Abonnement niet geanonimiseerd voor verzoek om persoonlijke date te "
-"verwijderen door actieve status."
+msgid "Subscription not anonymized for personal data erasure request because of active status."
+msgstr "Abonnement niet geanonimiseerd voor verzoek om persoonlijke date te verwijderen door actieve status."
 
 #. translators: %s: Subscription ID
 #: packages/wp-pay/core/src/Subscriptions/SubscriptionsPrivacy.php:220
@@ -3431,8 +3253,7 @@ msgstr "Betalingsinformatie"
 #. translators: %s: Exception message.
 #: packages/wp-pay/core/views/form.php:226
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:90
-msgid ""
-"This field could not be displayed due to the following error message: \"%s\"."
+msgid "This field could not be displayed due to the following error message: \"%s\"."
 msgstr "Dit veld kon niet getoond worden door de volgende foutmelding: \"%s\"."
 
 #: packages/wp-pay/core/views/form.php:254
@@ -3499,19 +3320,12 @@ msgid "Transaction feedback"
 msgstr "Transactie terugkoppeling"
 
 #: packages/wp-pay/core/views/meta-box-gateway-settings.php:97
-msgid ""
-"Processing gateway transaction feedback in the background requires "
-"additional configuration."
-msgstr ""
-"Verwerken van gateway transactie terugkoppeling op de achtergrond vereist "
-"extra configuratie."
+msgid "Processing gateway transaction feedback in the background requires additional configuration."
+msgstr "Verwerken van gateway transactie terugkoppeling op de achtergrond vereist extra configuratie."
 
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:21
-msgid ""
-"Please save the entered account details of your payment provider, to make a "
-"test payment."
-msgstr ""
-"Sla de ingevoerde betalingsgateway gegevens op om een test betaling te maken."
+msgid "Please save the entered account details of your payment provider, to make a test payment."
+msgstr "Sla de ingevoerde betalingsgateway gegevens op om een test betaling te maken."
 
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:52
 msgid "— Choose payment method —"
@@ -3519,12 +3333,8 @@ msgstr "— Kies betaalmethode —"
 
 #. translators: 1: Field label, 2: Payment method name
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:104
-msgid ""
-"<strong>Pronamic Pay</strong> — An error occurred within the \"%1$s\" field "
-"of the \"%2$s\" payment method."
-msgstr ""
-"<strong>Pronamic Pay</strong> — Er trad een probleem op in het veld “%1$s\" "
-"van de \"%2$s\" betaalmethode."
+msgid "<strong>Pronamic Pay</strong> — An error occurred within the \"%1$s\" field of the \"%2$s\" payment method."
+msgstr "<strong>Pronamic Pay</strong> — Er trad een probleem op in het veld “%1$s\" van de \"%2$s\" betaalmethode."
 
 #: packages/wp-pay/core/views/meta-box-gateway-test.php:117
 msgid "Message"
@@ -3614,12 +3424,8 @@ msgstr "Nog geen webhook verzoek verwerkt."
 
 #. translators: 1: formatted date, 2: payment edit url, 3: payment id
 #: packages/wp-pay/core/views/meta-box-gateway-webhook-log.php:54
-msgid ""
-"Last webhook request processed on %1$s for <a href=\"%2$s\" title=\"Payment "
-"%3$s\">payment #%3$s</a>."
-msgstr ""
-"Laatste webhook verzoek verwerkt op %1$s voor <a href=\"%2$s\" "
-"title=\"Betaling %3$s\">betaling #%3$s</a>."
+msgid "Last webhook request processed on %1$s for <a href=\"%2$s\" title=\"Payment %3$s\">payment #%3$s</a>."
+msgstr "Laatste webhook verzoek verwerkt op %1$s voor <a href=\"%2$s\" title=\"Betaling %3$s\">betaling #%3$s</a>."
 
 #: packages/wp-pay/core/views/meta-box-gateway-webhook-log.php:58
 #: packages/wp-pay/core/views/meta-box-gateway-webhook-log.php:69
@@ -3966,17 +3772,12 @@ msgid "Prorated"
 msgstr "Naar rato"
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:97
-msgid ""
-"Recurring payments will not be created until manual reactivation of this "
-"subscription."
-msgstr ""
-"Terugkerende betalingen worden pas gemaakt na handmatige heractivering van "
-"dit abonnement."
+msgid "Recurring payments will not be created until manual reactivation of this subscription."
+msgstr "Terugkerende betalingen worden pas gemaakt na handmatige heractivering van dit abonnement."
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:98
 msgid "See subscription and payment notes for details about status changes."
-msgstr ""
-"Zie abonnements- en betalingsnotities voor details over statuswijzigingen."
+msgstr "Zie abonnements- en betalingsnotities voor details over statuswijzigingen."
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:121
 msgid "Next payment:"
@@ -3991,12 +3792,8 @@ msgid "Set date"
 msgstr "Datum instellen"
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:169
-msgid ""
-"Set the next payment date to a future date to continue payments for this "
-"subscription."
-msgstr ""
-"Stel de volgende betalingsdatum in op een toekomstige datum om de betalingen "
-"voor dit abonnement voort te zetten."
+msgid "Set the next payment date to a future date to continue payments for this subscription."
+msgstr "Stel de volgende betalingsdatum in op een toekomstige datum om de betalingen voor dit abonnement voort te zetten."
 
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:175
 msgid "Please select a future date."
@@ -4004,38 +3801,21 @@ msgstr "Selecteer een toekomstige datum."
 
 #. translators: %s subscription source description
 #: packages/wp-pay/core/views/meta-box-subscription-update.php:184
-msgid ""
-"Editing the next payment date does not affect the current status or validity "
-"of %s."
-msgstr ""
-"Het wijzigen van de volgende betalingsdatum heeft geen invloed op de huidige "
-"status of geldigheid van %s."
+msgid "Editing the next payment date does not affect the current status or validity of %s."
+msgstr "Het wijzigen van de volgende betalingsdatum heeft geen invloed op de huidige status of geldigheid van %s."
 
 #. translators: %s: Pronamic Pay
 #: packages/wp-pay/core/views/notice-license.php:31
 msgid "Thank you for activating your license and using the %s plugin."
-msgstr ""
-"Bedankt voor het activeren van je licentie en het gebruik van de %s plugin."
+msgstr "Bedankt voor het activeren van je licentie en het gebruik van de %s plugin."
 
 #: packages/wp-pay/core/views/notice-license.php:37
-msgid ""
-"This license does not have any activations left. Maybe you have to "
-"deactivate your license on a local/staging server. This can be done on your "
-"<a href=\"https://www.pronamic.eu/\" target=\"_blank\">Pronamic.eu account</"
-"a>."
-msgstr ""
-"Deze licentie heeft geen activaties meer beschikbaar. Misschien moet je je "
-"licentie deactiveren op een lokale/staging server. Dit kan worden gedaan via "
-"je <a href=\"http://www.pronamic.eu/\" target=\"_blank\">Pronamic.eu "
-"account</a>."
+msgid "This license does not have any activations left. Maybe you have to deactivate your license on a local/staging server. This can be done on your <a href=\"https://www.pronamic.eu/\" target=\"_blank\">Pronamic.eu account</a>."
+msgstr "Deze licentie heeft geen activaties meer beschikbaar. Misschien moet je je licentie deactiveren op een lokale/staging server. Dit kan worden gedaan via je <a href=\"http://www.pronamic.eu/\" target=\"_blank\">Pronamic.eu account</a>."
 
 #: packages/wp-pay/core/views/notice-license.php:46
-msgid ""
-"There was a problem activating your license key, please try again or contact "
-"support."
-msgstr ""
-"Er was een probleem met het activeren van je licentiesleutel, probeer het "
-"opnieuw of neem contact op met support."
+msgid "There was a problem activating your license key, please try again or contact support."
+msgstr "Er was een probleem met het activeren van je licentiesleutel, probeer het opnieuw of neem contact op met support."
 
 #: packages/wp-pay/core/views/page-dashboard.php:44
 msgid "Latest Payments"
@@ -4059,13 +3839,8 @@ msgid "Getting Started"
 msgstr "Om te beginnen"
 
 #: packages/wp-pay/core/views/page-dashboard.php:336
-msgid ""
-"Please follow the tour, read the 'What is new' and 'Getting Started' pages "
-"before contacting us. Also, check the Site Health page for any issues."
-msgstr ""
-"Volg de tour en lees de 'Wat is nieuw' en 'Om te beginnen' pagina's voordat "
-"je contact met ons opneemt. Controleer ook de sitediagnose op eventuele "
-"problemen."
+msgid "Please follow the tour, read the 'What is new' and 'Getting Started' pages before contacting us. Also, check the Site Health page for any issues."
+msgstr "Volg de tour en lees de 'Wat is nieuw' en 'Om te beginnen' pagina's voordat je contact met ons opneemt. Controleer ook de sitediagnose op eventuele problemen."
 
 #: packages/wp-pay/core/views/page-dashboard.php:371
 msgid "What is new"
@@ -4101,136 +3876,77 @@ msgid "The default payment status pages could not be created."
 msgstr "De standaard betalingsstatus pagina's konden niet worden aangemaakt."
 
 #: packages/wp-pay/core/views/pointer-dashboard.php:15
-msgid ""
-"On the Pronamic Pay dashboard you can restart this tour and see an overview "
-"of the latest pending payments."
-msgstr ""
-"Op het Pronamic Pay dashboard kun je deze rondleiding opnieuw starten en een "
-"overzicht van de laatste in afwachting betalingen zien."
+msgid "On the Pronamic Pay dashboard you can restart this tour and see an overview of the latest pending payments."
+msgstr "Op het Pronamic Pay dashboard kun je deze rondleiding opnieuw starten en een overzicht van de laatste in afwachting betalingen zien."
 
 #: packages/wp-pay/core/views/pointer-dashboard.php:16
-msgid ""
-"It also gives you access to the “Getting Started” and “Site Health” pages in "
-"case you have issues."
-msgstr ""
-"Het geeft je ook toegang tot de “Om te beginnen” en “Sitediagnose” pagina’s "
-"als je problemen hebt."
+msgid "It also gives you access to the “Getting Started” and “Site Health” pages in case you have issues."
+msgstr "Het geeft je ook toegang tot de “Om te beginnen” en “Sitediagnose” pagina’s als je problemen hebt."
 
 #: packages/wp-pay/core/views/pointer-dashboard.php:17
 msgid "And you can follow the latest news from the Pronamic.eu weblog."
 msgstr "En je kunt het laatste nieuws volgen van de Pronamic.nl weblog."
 
 #: packages/wp-pay/core/views/pointer-forms.php:15
-msgid ""
-"On the payment forms page you can add, edit or delete simple payment forms."
-msgstr ""
-"Op de betalingsformulieren pagina kun je eenvoudige betalingsformulieren "
-"toevoegen, bewerken of verwijderen."
+msgid "On the payment forms page you can add, edit or delete simple payment forms."
+msgstr "Op de betalingsformulieren pagina kun je eenvoudige betalingsformulieren toevoegen, bewerken of verwijderen."
 
 #: packages/wp-pay/core/views/pointer-forms.php:16
-msgid ""
-"Currently it’s not possible to adjust the form fields or styling of these "
-"forms."
-msgstr ""
-"Momenteel is het niet mogelijk om de formuliervelden of opmaak van deze "
-"formulieren te wijzigen."
+msgid "Currently it’s not possible to adjust the form fields or styling of these forms."
+msgstr "Momenteel is het niet mogelijk om de formuliervelden of opmaak van deze formulieren te wijzigen."
 
 #. translators: 1: Gravity Forms link, 2: _blank
 #: packages/wp-pay/core/views/pointer-forms.php:22
-msgid ""
-"For more advanced payment forms we advice you to use the <a href=\"%1$s\" "
-"target=\"%2$s\">“Gravity Forms” plugin</a>."
-msgstr ""
-"Voor meer geavanceerde betalingsformulieren adviseren we je om gebruik te "
-"maken van de <a href=\"%1$s\" target=\"%2$s\">“Gravity Forms” plugin</a>."
+msgid "For more advanced payment forms we advice you to use the <a href=\"%1$s\" target=\"%2$s\">“Gravity Forms” plugin</a>."
+msgstr "Voor meer geavanceerde betalingsformulieren adviseren we je om gebruik te maken van de <a href=\"%1$s\" target=\"%2$s\">“Gravity Forms” plugin</a>."
 
 #: packages/wp-pay/core/views/pointer-gateways.php:15
-msgid ""
-"Here you can find an overview of all the gateway configurations on your "
-"WordPress site."
-msgstr ""
-"Hier vind je een overzicht van al de betalingsconfiguraties op je WordPress "
-"website."
+msgid "Here you can find an overview of all the gateway configurations on your WordPress site."
+msgstr "Hier vind je een overzicht van al de betalingsconfiguraties op je WordPress website."
 
 #: packages/wp-pay/core/views/pointer-gateways.php:16
-msgid ""
-"To use the Pronamic Pay plugin you have to add an payment gateway "
-"configuration."
-msgstr ""
-"Om de Pronamic Pay plugin te gebruiken moet je een betalingsgateway "
-"configuratie toevoegen."
+msgid "To use the Pronamic Pay plugin you have to add an payment gateway configuration."
+msgstr "Om de Pronamic Pay plugin te gebruiken moet je een betalingsgateway configuratie toevoegen."
 
 #: packages/wp-pay/core/views/pointer-gateways.php:17
-msgid ""
-"Normally you get the required configuration information from your payment "
-"provider."
-msgstr ""
-"Normaliter krijgen je benodigde configuratie informatie van je "
-"betalingsprovider."
+msgid "Normally you get the required configuration information from your payment provider."
+msgstr "Normaliter krijgen je benodigde configuratie informatie van je betalingsprovider."
 
 #: packages/wp-pay/core/views/pointer-payments.php:15
-msgid ""
-"On the payments page you can find an overview off all the payments initiated "
-"on your WordPress site."
-msgstr ""
-"Op de betalingen pagina vind je een overzicht van alle betalingen die "
-"gestart zijn op je WordPress website."
+msgid "On the payments page you can find an overview off all the payments initiated on your WordPress site."
+msgstr "Op de betalingen pagina vind je een overzicht van alle betalingen die gestart zijn op je WordPress website."
 
 #: packages/wp-pay/core/views/pointer-payments.php:16
-msgid ""
-"You can easily filter the payments by status or use the search field to "
-"search for specific payments."
-msgstr ""
-"Je kunt de betalingen eenvoudig filteren op status of het zoekveld gebruiken "
-"om te zoeken naar specifieke betalingen."
+msgid "You can easily filter the payments by status or use the search field to search for specific payments."
+msgstr "Je kunt de betalingen eenvoudig filteren op status of het zoekveld gebruiken om te zoeken naar specifieke betalingen."
 
 #: packages/wp-pay/core/views/pointer-payments.php:17
-msgid ""
-"We advice you to regular check the pending payments on this overview and "
-"adjust the status of these payments manual if needed."
-msgstr ""
-"We adviseren je om regelmatig de in afwachting betalingen te controleren in "
-"dit overzicht en wanneer nodig de status van deze betalingen handmatig bij "
-"te werken."
+msgid "We advice you to regular check the pending payments on this overview and adjust the status of these payments manual if needed."
+msgstr "We adviseren je om regelmatig de in afwachting betalingen te controleren in dit overzicht en wanneer nodig de status van deze betalingen handmatig bij te werken."
 
 #: packages/wp-pay/core/views/pointer-reports.php:15
-msgid ""
-"The Pronamic Pay reports page shows you an graph of all the payments of this "
-"year."
-msgstr ""
-"De Pronamic Pay rapporten pagina toont een grafiek van alle betalingen van "
-"dit jaar."
+msgid "The Pronamic Pay reports page shows you an graph of all the payments of this year."
+msgstr "De Pronamic Pay rapporten pagina toont een grafiek van alle betalingen van dit jaar."
 
 #: packages/wp-pay/core/views/pointer-reports.php:16
-msgid ""
-"You can see the number of successful payments and the total amount of "
-"pending, successful, cancelled and failed payments."
-msgstr ""
-"Je kunt het aantal succesvolle betalingen en het totale bedrag aan in "
-"afwachting, succesvolle, geannuleerde en mislukte betalingen zien."
+msgid "You can see the number of successful payments and the total amount of pending, successful, cancelled and failed payments."
+msgstr "Je kunt het aantal succesvolle betalingen en het totale bedrag aan in afwachting, succesvolle, geannuleerde en mislukte betalingen zien."
 
 #: packages/wp-pay/core/views/pointer-settings.php:15
 msgid "These are the General settings for the Pronamic Pay plugin."
 msgstr "Dit zijn de algemene instellingen voor de Pronamic Pay plugin."
 
 #: packages/wp-pay/core/views/pointer-settings.php:16
-msgid ""
-"Here you can enter your license key and configure some default settings."
-msgstr ""
-"Hier kun je je licentiesleutel invoeren en enkele standaard instellingen "
-"configureren."
+msgid "Here you can enter your license key and configure some default settings."
+msgstr "Hier kun je je licentiesleutel invoeren en enkele standaard instellingen configureren."
 
 #: packages/wp-pay/core/views/pointer-start.php:12
 msgid "Congratulations"
 msgstr "Gefeliciteerd"
 
 #: packages/wp-pay/core/views/pointer-start.php:15
-msgid ""
-"You’ve just installed the Pronamic Pay plugin. Click “Start Tour” to view a "
-"quick introduction of this plugin’s core functionality."
-msgstr ""
-"Zojuist is Pronamic Pay geïnstalleerd. Klik op “Start rondleiding” om een "
-"snelle introductie van de kernfunctionaliteit van deze plugin te zien."
+msgid "You’ve just installed the Pronamic Pay plugin. Click “Start Tour” to view a quick introduction of this plugin’s core functionality."
+msgstr "Zojuist is Pronamic Pay geïnstalleerd. Klik op “Start rondleiding” om een snelle introductie van de kernfunctionaliteit van deze plugin te zien."
 
 #: packages/wp-pay/core/views/pronamic.php:12
 msgid "Follow Pronamic"
@@ -4243,8 +3959,7 @@ msgstr "Abonnement opzeggen"
 
 #: packages/wp-pay/core/views/subscription-cancel.php:53
 msgid "The subscription can not be canceled as it is not active anymore."
-msgstr ""
-"Het abonnement kan niet worden vernieuwd, omdat het niet meer actief is."
+msgstr "Het abonnement kan niet worden vernieuwd, omdat het niet meer actief is."
 
 #: packages/wp-pay/core/views/subscription-cancel.php:64
 msgid "Are you sure you want to cancel the subscription?"
@@ -4282,8 +3997,7 @@ msgstr "Wijzig betaalmethode voor abonnement"
 
 #: packages/wp-pay/core/views/subscription-mandate.php:99
 msgid "Select an existing payment method or add a new one."
-msgstr ""
-"Selecteer een bestaande betalingsmethode of voeg een nieuwe methode toe."
+msgstr "Selecteer een bestaande betalingsmethode of voeg een nieuwe methode toe."
 
 #: packages/wp-pay/core/views/subscription-mandate.php:106
 msgid "Select existing payment method"
@@ -4424,12 +4138,8 @@ msgstr "WP geheugenlimiet"
 
 #. translators: %s: WordPress Codex link
 #: packages/wp-pay/core/views/tab-system_status.php:208
-msgid ""
-"We recommend setting memory to at least 64MB. See: <a href=\"%s\" "
-"target=\"_blank\">Increasing memory allocated to PHP</a>"
-msgstr ""
-"We adviseren om het geheugenlimiet in te stellen op minimaal 64MB. Zie: <a "
-"href=\"%s\">Verhoog aan PHP toegewezen geheugen</a>"
+msgid "We recommend setting memory to at least 64MB. See: <a href=\"%s\" target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr "We adviseren om het geheugenlimiet in te stellen op minimaal 64MB. Zie: <a href=\"%s\">Verhoog aan PHP toegewezen geheugen</a>"
 
 #: packages/wp-pay/core/views/tab-system_status.php:225
 msgid "Character Set"
@@ -4496,12 +4206,8 @@ msgstr[0] "%s betaling"
 msgstr[1] "%s betalingen"
 
 #: pronamic-pay-with-mollie-for-ninja-forms.php:71
-msgid ""
-"https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-"
-"with-pronamic-pay/"
-msgstr ""
-"https://www.pronamicpay.com/nl/handleidingen/hoe-je-mollie-aan-wordpress-"
-"koppelt-met-pronamic-pay/"
+msgid "https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/"
+msgstr "https://www.pronamicpay.com/nl/handleidingen/hoe-je-mollie-aan-wordpress-koppelt-met-pronamic-pay/"
 
 #~ msgid "https://www.pronamic.eu/plugins/pronamic-pay/"
 #~ msgstr "https://www.pronamic.eu/plugins/pronamic-pay/"
@@ -4868,16 +4574,17 @@ msgstr ""
 
 #~ msgid "Partially Refunded"
 #~ msgstr "Gedeeltelijk terugbetaald"
-
 #~ msgctxt "Easy Digital Downloads cancelled payment status"
+
 #~ msgid "Cancelled"
 #~ msgstr "Geannuleerd"
-
 #~ msgctxt "Easy Digital Downloads payment status"
+
 #~ msgid "Partially Refunded"
 #~ msgstr "Gedeeltelijk terugbetaald"
 
 #~ msgid "Partially Refunded <span class=\"count\">(%s)</span>"
+
 #~ msgid_plural "Partially Refunded <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Gedeeltelijk terugbetaald <span class=\"count\">( %s )</span>"
 #~ msgstr[1] "Gedeeltelijk terugbetaald <span class=\"count\">( %s )</span>"
@@ -5158,20 +4865,20 @@ msgstr ""
 
 #~ msgid "— Use field default —"
 #~ msgstr "— Gebruik veld standaard —"
-
 #~ msgctxt "Field display mode"
+
 #~ msgid "Select"
 #~ msgstr "Uitschuifkeuzelijst"
-
 #~ msgctxt "Field display mode"
+
 #~ msgid "List with icons"
 #~ msgstr "Lijst met iconen"
-
 #~ msgctxt "Field display mode"
+
 #~ msgid "Small icons"
 #~ msgstr "Kleine iconen"
-
 #~ msgctxt "Field display mode"
+
 #~ msgid "Large icons"
 #~ msgstr "Grote iconen"
 
@@ -5382,8 +5089,8 @@ msgstr ""
 
 #~ msgid "Fixed"
 #~ msgstr "Vast"
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "Every"
 #~ msgstr "Elke"
 
@@ -5407,8 +5114,8 @@ msgstr ""
 
 #~ msgid "Number of Periods"
 #~ msgstr "Aantal perioden"
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "times"
 #~ msgstr "keer"
 
@@ -5890,8 +5597,8 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamicpay.com/nl/handleidingen/hoe-je-adyen-aan-wordpress-"
 #~ "koppelt-met-pronamic-pay/"
-
 #~ msgctxt "Adyen"
+
 #~ msgid "Adyen Notification Authentication"
 #~ msgstr "Adyen notificatie authenticatie"
 
@@ -5908,8 +5615,8 @@ msgstr ""
 #~ "Stel de gebruikersnaam en het wachtwoord hieronder en in de webhook "
 #~ "authenticatie instellingen in het Adyen-dashboard in voor een betere "
 #~ "beveiliging (aanbevolen)."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Merchant Account"
 #~ msgstr "Merchant account"
 
@@ -5917,8 +5624,8 @@ msgstr ""
 #~ "The merchant account identifier, with which you want to process the "
 #~ "transaction."
 #~ msgstr "De merchant account waarmee je transacties wilt verwerken."
-
 #~ msgctxt "adyen"
+
 #~ msgid "API Key"
 #~ msgstr "API-key"
 
@@ -5927,8 +5634,8 @@ msgstr ""
 
 #~ msgid "Adyen documentation: \"API credentials\"."
 #~ msgstr "Adyen documentatie: “API credentials”."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Environment"
 #~ msgstr "Omgeving"
 
@@ -5943,8 +5650,8 @@ msgstr ""
 
 #~ msgid "Live - United States"
 #~ msgstr "Live - Verenigde Staten"
-
 #~ msgctxt "adyen"
+
 #~ msgid "API Live URL Prefix"
 #~ msgstr "API live URL prefix"
 
@@ -5957,8 +5664,8 @@ msgstr ""
 
 #~ msgid "Adyen documentation: \"Live URL prefix\"."
 #~ msgstr "Adyen documentatie: \"Live URL prefix\"."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Client Key"
 #~ msgstr "Client Key"
 
@@ -5986,8 +5693,8 @@ msgstr ""
 
 #~ msgid "Choose the SSL Version of your server on the Adyen Customer Area."
 #~ msgstr "Kies de SSL-versie van je server in de Adyen klantomgeving."
-
 #~ msgctxt "adyen notification"
+
 #~ msgid "Method"
 #~ msgstr "Methode"
 
@@ -6012,12 +5719,12 @@ msgstr ""
 #~ msgid "HTTP Authorization header is missing, read %s for more information."
 #~ msgstr ""
 #~ "HTTP autorisatie header ontbreekt, raadpleeg %s voor meer informatie."
-
 #~ msgctxt "Adyen"
+
 #~ msgid "Sorry, you are not allowed to post Adyen notifications."
 #~ msgstr "Sorry, je hebt geen toestemming om Adyen notificaties te plaatsen."
-
 #~ msgctxt "Adyen"
+
 #~ msgid "Cannot parse JSON notification."
 #~ msgstr "Kan JSON-notificatie niet verwerken."
 
@@ -6169,8 +5876,8 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamicpay.com/nl/handleidingen/hoe-koppel-je-digiwallet-aan-"
 #~ "wordpress-met-pronamic-pay/"
-
 #~ msgctxt "digiwallet"
+
 #~ msgid "Shop ID (layoutcode)"
 #~ msgstr "Shop ID (layoutcode)"
 
@@ -6203,8 +5910,8 @@ msgstr ""
 
 #~ msgid "Approval code"
 #~ msgstr "Goedkeuringscode"
-
 #~ msgctxt "creditcard"
+
 #~ msgid "Reference number"
 #~ msgstr "Referentienummer"
 
@@ -6247,23 +5954,23 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamicpay.com/nl/handleidingen/hoe-koppel-je-ems-aan-"
 #~ "wordpress-met-pronamic-pay/"
-
 #~ msgctxt "ems"
+
 #~ msgid "Storename"
 #~ msgstr "Storename"
-
 #~ msgctxt "ems"
+
 #~ msgid "Shared Secret"
 #~ msgstr "Shared Secret"
 
 #~ msgid "The EMS e-Commerce %s parameter."
 #~ msgstr "De EMS e-Commerce %s parameter."
-
 #~ msgctxt "EMS e-Commerce"
+
 #~ msgid "Notification URL"
 #~ msgstr "Notificatie URL"
-
 #~ msgctxt "EMS e-Commerce"
+
 #~ msgid ""
 #~ "The Notification URL as sent with each transaction to receive automatic "
 #~ "payment status updates on."
@@ -6276,16 +5983,16 @@ msgstr ""
 
 #~ msgid "Brand"
 #~ msgstr "Merk"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "AMEX"
 #~ msgstr "American Express"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "MASTER"
 #~ msgstr "Mastercard"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "VISA"
 #~ msgstr "Visa"
 
@@ -6298,8 +6005,8 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamicpay.com/nl/handleidingen/hoe-koppel-je-icepay-aan-"
 #~ "wordpress-met-pronamic-pay/"
-
 #~ msgctxt "icepay"
+
 #~ msgid "Merchant ID"
 #~ msgstr "Merchant ID"
 
@@ -6309,8 +6016,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Merchant ID zoals vermeld in het ICEPAY dashboard op de pagina \"Mijn "
 #~ "websites\"."
-
 #~ msgctxt "icepay"
+
 #~ msgid "Secret Code"
 #~ msgstr "Secret code"
 
@@ -6493,12 +6200,12 @@ msgstr ""
 #~ msgstr ""
 #~ "Hash sleutel (ook wel sleutel of geheime sleutel) zoals vermeld in het "
 #~ "dashboard van de betalingsprovider."
-
 #~ msgctxt "iDEAL Basic dashboard"
+
 #~ msgid "XML Notification URL"
 #~ msgstr "XML-notificatie URL"
-
 #~ msgctxt "iDEAL Basic dashboard"
+
 #~ msgid ""
 #~ "Copy the XML notification URL to the payment provider dashboard to "
 #~ "receive automatic transaction status updates."
@@ -6560,20 +6267,20 @@ msgstr ""
 
 #~ msgid "Site Security Code"
 #~ msgstr "Site Security Code"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "American Express"
 #~ msgstr "American Express"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "Maestro"
 #~ msgstr "Maestro"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "Mastercard"
 #~ msgstr "Mastercard"
-
 #~ msgctxt "Payment method name"
+
 #~ msgid "Visa"
 #~ msgstr "Visa"
 
@@ -6793,12 +6500,12 @@ msgstr ""
 #~ msgstr ""
 #~ "%1$s — <a href=\"%2$s\">Rabo Smart Pay accepteert geen betalingen van "
 #~ "%3$s omgevingen</a>."
-
 #~ msgctxt "omnikassa"
+
 #~ msgid "Refresh Token"
 #~ msgstr "Refresh token"
-
 #~ msgctxt "omnikassa"
+
 #~ msgid "Signing Key"
 #~ msgstr "Signing key"
 
@@ -6887,8 +6594,8 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamicpay.com/nl/handleidingen/hoe-je-paypal-aan-wordpress-"
 #~ "koppelt-met-pronamic-pay/"
-
 #~ msgctxt "paypal"
+
 #~ msgid "Email"
 #~ msgstr "E-mail"
 
@@ -7007,6 +6714,7 @@ msgstr ""
 #~ msgid ""
 #~ "The webhook URL to receive automatic payment status updates seems to have "
 #~ "changed for the %1$s configuration. Please check your settings."
+
 #~ msgid_plural ""
 #~ "The webhook URL to receive automatic payment status updates seems to have "
 #~ "changed for the %1$s configurations. Please check your settings."
@@ -7054,8 +6762,8 @@ msgstr ""
 #~ "Please click the button below if you are not automatically redirected."
 #~ msgstr ""
 #~ "Klik op de knop als de doorsturing niet automatisch wordt uitgevoerd."
-
 #~ msgctxt "block title"
+
 #~ msgid "Payment Form"
 #~ msgstr "Betalingsformulier"
 
@@ -7216,8 +6924,8 @@ msgstr ""
 
 #~ msgid "https://www.pronamic.eu/manuals/using-payvision-pronamic-pay/"
 #~ msgstr "https://www.pronamic.eu/manuals/using-payvision-pronamic-pay/"
-
 #~ msgctxt "payvision"
+
 #~ msgid "Business Id"
 #~ msgstr "Business ID"
 
@@ -7227,16 +6935,16 @@ msgstr ""
 #~ msgstr ""
 #~ "Een verkoper die verbinding maakt met het platform wordt geïdentificeerd "
 #~ "met een Business ID (“businessId”)."
-
 #~ msgctxt "payvision"
+
 #~ msgid "User"
 #~ msgstr "Gebruiker"
-
 #~ msgctxt "payvision"
+
 #~ msgid "Password"
 #~ msgstr "Wachtwoord"
-
 #~ msgctxt "payvision"
+
 #~ msgid "Store ID"
 #~ msgstr "Winkel ID"
 
@@ -7256,8 +6964,8 @@ msgstr ""
 
 #~ msgid "Sisow"
 #~ msgstr "Sisow"
-
 #~ msgctxt "sisow"
+
 #~ msgid "Merchant ID"
 #~ msgstr "Merchant ID"
 
@@ -7267,8 +6975,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Merchant ID zoals vermeld in het Sisow dashboard op de pagina \"Mijn "
 #~ "profiel\"."
-
 #~ msgctxt "sisow"
+
 #~ msgid "Merchant Key"
 #~ msgstr "Merchant Key"
 
@@ -7278,8 +6986,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Merchant Key zoals vermeld in het Sisow dashboard op de pagina \"Mijn "
 #~ "profiel\"."
-
 #~ msgctxt "sisow"
+
 #~ msgid "Shop ID"
 #~ msgstr "Shop ID"
 
@@ -7289,8 +6997,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Shop ID zoals vermeld in het Sisow dashboard op de pagina \"Mijn "
 #~ "profiel\"."
-
 #~ msgctxt "sisow"
+
 #~ msgid "Test Mode"
 #~ msgstr "Test modus"
 
@@ -7301,12 +7009,12 @@ msgstr ""
 #~ "Dit vereist dat de instelling “Testen met behulp van simulator "
 #~ "(toestaan)” is geactiveerd in de Sisow-account via ‘Mijn Profiel – pagina "
 #~ "Geavanceerd’."
-
 #~ msgctxt "Payment method field"
+
 #~ msgid "All available methods"
 #~ msgstr "Alle beschikbare methoden"
-
 #~ msgctxt "Payment method field"
+
 #~ msgid "Other"
 #~ msgstr "Anders"
 
@@ -7359,8 +7067,8 @@ msgstr ""
 
 #~ msgid "Adyen documentation: \"How to get the API key\"."
 #~ msgstr "Adyen documentatie: \"How to get the API key\"."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Origin Key"
 #~ msgstr "Origin Key"
 
@@ -7372,8 +7080,8 @@ msgstr ""
 #~ "Een Origin Key is een client-side sleutel die gebruikt wordt voor "
 #~ "validatie in Adyen's Javascript componenten. De sleutel is nodig voor de "
 #~ "drop-in en component integraties."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Apple Pay Merchant ID"
 #~ msgstr "Apple Pay Merchant ID"
 
@@ -7413,8 +7121,8 @@ msgstr ""
 #~ msgstr ""
 #~ "De privésleutel van het Apple Pay Merchant Identity certificaat voor "
 #~ "veilige communicatie met Apple."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Apple Pay Merchant Identity Private Key Password"
 #~ msgstr "Apple Pay Merchant Identity privésleutel wachtwoord"
 
@@ -7422,8 +7130,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Het wachtwoord van je Apple Pay Merchant Identity Certificate "
 #~ "privésleutel."
-
 #~ msgctxt "adyen"
+
 #~ msgid "Google Pay Merchant ID"
 #~ msgstr "Google Pay Merchant ID"
 
@@ -7521,12 +7229,12 @@ msgstr ""
 
 #~ msgid "Session ID"
 #~ msgstr "Sessie ID"
-
 #~ msgctxt "Payment title date format parsed by `date_i18n`."
+
 #~ msgid "M d, Y @ h:i A"
 #~ msgstr "j M Y @ H:i"
-
 #~ msgctxt "Subscription title date format parsed by `date_i18n`."
+
 #~ msgid "M d, Y @ h:i A"
 #~ msgstr "j M Y @ H:i"
 
@@ -7547,11 +7255,13 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "Font size name"
+
 #~ msgid "Custom"
 #~ msgstr "Custom."
 
 #, fuzzy
 #~ msgctxt "Gradient name"
+
 #~ msgid "Custom gradient"
 #~ msgstr "Klant  naam"
 
@@ -7873,8 +7583,8 @@ msgstr ""
 #~ msgstr ""
 #~ "https://www.pronamic.nl/support/pronamic-pay-koppelen-met-ing-kassa-"
 #~ "compleet/"
-
 #~ msgctxt "ing_kassa_compleet"
+
 #~ msgid "API Key"
 #~ msgstr "API-sleutel"
 
@@ -7999,12 +7709,12 @@ msgstr ""
 #~ "Hiermee kunt u een ander websiteprofielen selecteren om uw betaling aan "
 #~ "te linken. Gebruik de waarde uit het veld Key uit het profiel overzicht. "
 #~ "[<a href=\"%s\" target=\"_blank\">bekijk overzicht van uw profielen</a>]."
-
 #~ msgctxt "nocks"
+
 #~ msgid "Access Token"
 #~ msgstr "Access token"
-
 #~ msgctxt "nocks"
+
 #~ msgid "Merchant Profile"
 #~ msgstr "Winkelier profiel"
 
@@ -8020,12 +7730,12 @@ msgstr ""
 
 #~ msgid "Nocks"
 #~ msgstr "Nocks"
-
 #~ msgctxt "creditcard"
+
 #~ msgid "Capture Day"
 #~ msgstr "Belast dag"
-
 #~ msgctxt "creditcard"
+
 #~ msgid "Capture Mode"
 #~ msgstr "Belast modus"
 
@@ -8110,12 +7820,12 @@ msgstr ""
 
 #~ msgid "Default: <code>%s</code>."
 #~ msgstr "Standaard: <code>%s</code>."
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "Interval"
 #~ msgstr "Interval"
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "Frequency"
 #~ msgstr "Frequentie"
 
@@ -8231,6 +7941,7 @@ msgstr ""
 #~ msgstr "Customer test ID"
 
 #~ msgid "%s time"
+
 #~ msgid_plural "%s times"
 #~ msgstr[0] "%s keer"
 #~ msgstr[1] "%s keren"
@@ -8267,8 +7978,8 @@ msgstr ""
 
 #~ msgid "Adds the ability for users to checkout with iDEAL."
 #~ msgstr "Maakt het mogelijk betalingen uit te voeren via iDEAL."
-
 #~ msgctxt "Payment method field"
+
 #~ msgid "All"
 #~ msgstr "Alle"
 
@@ -8484,12 +8195,12 @@ msgstr ""
 #~ "zien. Aanvullende kolommen kunnen getoond worden door deze in te "
 #~ "schakelen via\n"
 #~ "\"Scherminstellingen\" in de rechter hoek bovenaan op de pagina."
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "On"
 #~ msgstr "Op"
-
 #~ msgctxt "Recurring payment"
+
 #~ msgid "On the"
 #~ msgstr "Op de"
 
@@ -8528,16 +8239,19 @@ msgstr ""
 #~ "de betaalmethode geactiveerd lijkt te zijn voor je account."
 
 #~ msgid "day"
+
 #~ msgid_plural "days"
 #~ msgstr[0] "dag"
 #~ msgstr[1] "dagen"
 
 #~ msgid "week"
+
 #~ msgid_plural "weeks"
 #~ msgstr[0] "week"
 #~ msgstr[1] "weken"
 
 #~ msgid "month"
+
 #~ msgid_plural "months"
 #~ msgstr[0] "maand"
 #~ msgstr[1] "maanden"
@@ -8631,6 +8345,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Processing <span class=\"count\">(%s)</span>"
+
 #~ msgid_plural "Processing <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "In afwachting <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "In afwachting <span class=\"count\">(%s)</span>"
@@ -8641,6 +8356,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "Recurring payment"
+
 #~ msgid "Synchronized payment date"
 #~ msgstr "Gesynchroniseerde betalingsdatum"
 
