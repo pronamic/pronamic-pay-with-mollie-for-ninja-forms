@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: pronamic, mollie, ninja-forms, form, payment
 Requires at least: 5.9
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 8.0
 Stable tag: 1.0.0
 License: GPLv2 or later
