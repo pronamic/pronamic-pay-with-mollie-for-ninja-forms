@@ -17,11 +17,12 @@ jobs:
         with:
           sparse-checkout: |
             .github
+            .wordpress-org
             readme.txt
 
       - name: Deploy
         uses: pronamic/action-wordpress-plugin-readme-update@main
-        env:
-          SVN_USERNAME: pronamic
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          WP_SLUG: pronamic-pay-with-mollie-for-ninja-forms
+        with:
+          svn-username: pronamic
+          svn-password: ${{ secrets.SVN_PASSWORD }}
+          wp-slug: pronamic-pay-with-mollie-for-ninja-forms
