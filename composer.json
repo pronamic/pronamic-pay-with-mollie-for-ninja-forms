@@ -49,7 +49,16 @@
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": [
 			"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\Synchronizer::run",
-			"vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml"
+			"rm -rf ./build",
+			"mkdir ./build",
+			"mkdir ./build/stage-1",
+			"mkdir ./build/stage-2",
+			"rsync --recursive --verbose --exclude-from=.distignore --exclude-from=.gitignore ./ ./build/stage-1/",
+			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
+			"rsync --recursive --verbose --exclude-from=.distignore ./build/stage-1/ ./build/stage-2/",
+			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/stage-2/ || true",
+			"vendor/bin/wp i18n make-pot ./build/stage-2/ --slug=pronamic-pay-with-mollie-for-ninja-forms",
+			"vendor/bin/wp dist-archive ./build/stage-2/ --plugin-dirname=pronamic-pay-with-mollie-for-ninja-forms"
 		],
 		"translate": [
 			"@build",
