@@ -4,7 +4,7 @@ Tags: pronamic, mollie, ninja-forms, form, payment
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.8.0
+Stable tag: 1.9.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,21 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.9.0] - 2026-04-02
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.15` to `v5.0.16`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.16
+- Changed `pronamic/wp-datetime` from `v2.1.8` to `v2.2.0`.
+	Release notes: https://github.com/pronamic/wp-datetime/releases/tag/v2.2.0
+- Changed `wp-pay/core` from `v4.30.0` to `v4.32.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.32.0
+
+Full set of changes: [`1.8.0...1.9.0`][1.9.0]
+
+[1.9.0]: https://github.com/pronamic/pronamic-pay-with-mollie-for-ninja-forms/compare/v1.8.0...v1.9.0
 
 ### [1.8.0] - 2026-01-27
 

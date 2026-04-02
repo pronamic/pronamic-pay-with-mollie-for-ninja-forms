@@ -35,7 +35,7 @@
 		"woocommerce/action-scheduler": "^3.9",
 		"wp-pay-extensions/ninjaforms": "^3.3",
 		"wp-pay-gateways/mollie": "^4.19",
-		"wp-pay/core": "^4.30"
+		"wp-pay/core": "^4.32"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
@@ -62,7 +62,7 @@
 		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/",
+			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/",
 			"@update-po"
 		],
 		"update-po": "find languages/*.po -type f -exec msgmerge --update --backup=off {} languages/pronamic-pay-with-mollie-for-ninja-forms.pot \\;",
