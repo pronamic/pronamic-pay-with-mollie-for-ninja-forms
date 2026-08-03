@@ -4,7 +4,7 @@ Tags: pronamic, mollie, ninja-forms, form, payment
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.9.0
+Stable tag: 1.10.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,25 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.10.0] - 2026-08-03
+
+#### Added
+
+- Added integration with the Pronamic Pay default payment methods package, so default payment methods are registered independently from the core library.
+
+#### Composer
+
+- Added `pronamic/pronamic-pay-default-payment-methods` version `v1.0.1`.
+	Renamed the iDEAL QR payment method to "iDEAL | Wero QR".
+	Release notes: https://github.com/pronamic/pronamic-pay-default-payment-methods/releases/tag/v1.0.1
+- Changed `wp-pay/core` from `v4.32.0` to `v4.33.0`.
+	Payment method registration now runs through the new `pronamic_pay_register_payment_methods` action and the default methods moved to a separate package.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.33.0
+
+Full set of changes: [`1.9.0...1.10.0`][1.10.0]
+
+[1.10.0]: https://github.com/pronamic/pronamic-pay-with-mollie-for-ninja-forms/compare/v1.9.0...v1.10.0
 
 ### [1.9.0] - 2026-04-02
 
