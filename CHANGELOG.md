@@ -7,6 +7,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.11.0] - 2026-09-28
+
+### Changed
+
+- Raised the minimum required PHP version from 8.2 to 8.3.
+- Tested up to WordPress 7.1.
+- Mollie payment due dates are now set through a bank transfer payment request, as Mollie only supports due dates for bank transfer payments.
+- Subscription renewal pre-notifications are now sent 14 days in advance instead of 1 week.
+
+### Fixed
+
+- Fixed a currency mismatch exception when calculating payment totals in a currency other than EUR.
+- Fixed errors when loading payments or subscriptions whose post no longer exists.
+
+### Composer
+
+- Changed `php` from `>=8.2` to `>=8.3`.
+- Changed `automattic/jetpack-autoloader` from `v5.0.21` to `v5.0.23`.
+	Version 5.0.22 started honoring the root package's `exclude-from-classmap` setting for the Jetpack class map; 5.0.23 reverted this, so there is no net change in behavior.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v5.0.23/CHANGELOG.md
+- Changed `pronamic/wp-mollie` from `v1.10.1` to `v2.0.0`.
+	Breaking: the `due_date` property moved from `PaymentRequest` to `BankTransferPaymentRequest`, matching Mollie's supported payment type.
+	Release notes: https://github.com/pronamic/wp-mollie/releases/tag/v2.0.0
+- Changed `pronamic/wp-money` from `2.4.5` to `2.5.0`.
+	Added an optional currency argument to `Parser::parse()`, allowing amounts to be parsed in currencies other than EUR.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.5.0
+- Changed `woocommerce/action-scheduler` from `4.0.0` to `4.2.0`.
+	Fixes a lock that could get permanently stuck, enforces unique action inserts atomically, reduces SQL queries on the admin page and guards against object-injection when reading stored schedule data.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.1.0, https://github.com/woocommerce/action-scheduler/releases/tag/4.2.0
+- Changed `wp-pay-gateways/mollie` from `v4.20.0` to `v4.21.0`.
+	Uses a bank transfer payment request when setting the Mollie payment due date, for compatibility with `pronamic/wp-mollie` 2.0.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.21.0
+- Changed `wp-pay/core` from `v4.34.0` to `v4.35.0`.
+	Changed the default subscription renewal pre-notification period to 14 days, hides the next payment date for cancelled subscriptions and fixes currency mismatch and missing post errors.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.35.0
+
+Full set of changes: [`1.10.0...1.11.0`][1.11.0]
+
+[1.11.0]: https://github.com/pronamic/pronamic-pay-with-mollie-for-ninja-forms/compare/v1.10.0...v1.11.0
+
 ## [1.10.0] - 2026-08-03
 
 ### Added
