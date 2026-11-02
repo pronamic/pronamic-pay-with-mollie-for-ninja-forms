@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.11.1] - 2026-11-02
+
+### Changed
+
+- Updated the build and development configuration to the SolveBeam plugin boilerplate. No functional changes.
+
+### Composer
+
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.40` to `9.0.42`.
+	Updated phone number metadata for many regions (including CN, US, AU, IN and others) and fixed carrier code handling for Brazilian numbers.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.41, https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.42
+- Changed `symfony/polyfill-mbstring` from `v1.38.2` to `v1.43.3`.
+	Fixes for ill-formed UTF-8 handling, stricter argument validation in `mb_ord()`/`mb_chr()`/`mb_str_split()`, and better alignment with native `ext/mbstring` behavior.
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.0, https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.3
+
+Full set of changes: [`1.11.0...1.11.1`][1.11.1]
+
+[1.11.1]: https://github.com/pronamic/pronamic-pay-with-mollie-for-ninja-forms/compare/v1.11.0...v1.11.1
+
 ## [1.11.0] - 2026-09-28
 
 ### Changed
