@@ -1,9 +1,10 @@
-/.editorconfig           export-ignore
-/.gitattributes          export-ignore
-/.github/                export-ignore
-/.gitignore              export-ignore
-/.ppronamic-build-ignore export-ignore
-/.wordpress-org/         export-ignore
-/.wp-env.json            export-ignore
-/phpcs.xml.dist          export-ignore
-/tools/                  export-ignore
+# Exclude development and CI files from git archive exports.
+/.distignore                 export-ignore
+/.editorconfig               export-ignore
+/.github/                    export-ignore
+/.gitattributes              export-ignore
+/.gitignore                  export-ignore
+/.wordpress-org/             export-ignore
+/.wp-env.json                export-ignore
+/phpcs-text-domain-fixer.xml export-ignore
+/phpcs.xml.dist              export-ignore
