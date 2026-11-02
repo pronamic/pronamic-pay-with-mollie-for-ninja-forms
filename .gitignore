@@ -15,3 +15,6 @@ gha-creds-*.json
 
 # wp-env
 /.wp-env.override.json
+
+# macOS
+.DS_Store
