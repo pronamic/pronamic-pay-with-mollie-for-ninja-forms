@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-ninja-forms/
  * Description: Pronamic Pay plugin with Mollie for Ninja Forms integration.
  *
- * Version: 1.12.0-rc.1
+ * Version: 1.12.0
  * Requires at least: 5.9
  * Requires PHP: 8.3
  *
